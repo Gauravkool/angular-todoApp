@@ -1,6 +1,6 @@
 export class Todo {
-  sno?: number | undefined;
+  sno: number | undefined;
   title: string | undefined;
   desc: string | undefined;
-  isActive: boolean | undefined;
+  isActive: boolean | undefined; // Add this line
 }
